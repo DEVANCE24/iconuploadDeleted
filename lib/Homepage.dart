@@ -57,25 +57,33 @@ List<String>  SearchWebViewLinksUpdating = [
   'https://icon-sets.iconify.design/?query=',
   'https://simpleicons.org/?q=',
   'https://iconape.com/?s=',
+  'https://www.streamlinehq.com/icons?search=',
   'https://dryicons.com/free-icons/',
   'https://boxicons.com/?query=',
+  'https://iconarchive.com/search?q=',
   'https://veryicon.com/search/',
   'https://lineicons.com/icons/?search=',
+  'https://www.svgrepo.com/vectors/',
   'https://icon-icons.com/search/icons/?filtro=',
   'https://uxwing.com/?s=',
   'https://www.freeiconspng.com/search.html?q=',
+  'https://findicons.com/search/'
 ];
 List<String>  SearchWebViewLinks = [
   'https://icon-sets.iconify.design/?query=',
   'https://simpleicons.org/?q=',
   'https://iconape.com/?s=',
+  'https://www.streamlinehq.com/icons?search=',
   'https://dryicons.com/free-icons/',
   'https://boxicons.com/?query=',
+  'https://iconarchive.com/search?q=',
   'https://veryicon.com/search/',
   'https://lineicons.com/icons/?search=',
+  'https://www.svgrepo.com/vectors/',
   'https://icon-icons.com/search/icons/?filtro=',
   'https://uxwing.com/?s=',
   'https://www.freeiconspng.com/search.html?q=',
+  'https://findicons.com/search/'
 ];
 List<String> SearchUrlLinksUpdating=[
   'https://flaticon.com/search?word=',
@@ -86,11 +94,16 @@ List<String> SearchUrlLinksUpdating=[
   'https://fontawesome.com/search?q=',
   'https://thenounproject.com/search/icons/?iconspage=1&q=',
   'https://mui.com/material-ui/material-icons/?query=',
+  'https://iamvector.com/icons?search=',
   'https://feathericons.com/?query=',
+  'https://freeicons.io/search/icons?q=',
+  'https://www.iconpacks.net/search/?icon=',
+  'https://www.vecteezy.com/free-vector/',
   'https://fonts.google.com/icons?selected=Material+Icons&icon.query=',
   'https://www.3dicons.com/search/',
   'https://pixabay.com/vectors/search/',
   'https://www.iconpacks.net/search/?icon=',
+  'https://openclipart.org/search/?query=',
 
 ];
 
@@ -103,31 +116,38 @@ List<String> SearchUrlLinks=[
   'https://fontawesome.com/search?q=',
   'https://thenounproject.com/search/icons/?iconspage=1&q=',
   'https://mui.com/material-ui/material-icons/?query=',
+  'https://iamvector.com/icons?search=',
   'https://feathericons.com/?query=',
+  'https://freeicons.io/search/icons?q=',
+  'https://www.iconpacks.net/search/?icon=',
+  'https://www.vecteezy.com/free-vector/',
   'https://fonts.google.com/icons?selected=Material+Icons&icon.query=',
   'https://www.3dicons.com/search/',
   'https://pixabay.com/vectors/search/',
   'https://www.iconpacks.net/search/?icon=',
+  'https://openclipart.org/search/?query=bitcoin',
 
 ];
 
 List<String> WebviewLinks = [
   'https://lordicon.com/icons',
   'https://potlabicons.com/',
-  'https://livicons.com/icons-original.php',
   'https://ikonate.com/',
   'https://v2.jam-icons.com/',
   'https://jam-icons.com/',
-  'http://demo.amitjakhu.com/dripicons/',
   'https://iconer.app/',
-  'http://www.zondicons.com/icons.html',
+  'https://www.zondicons.com/icons.html',
+  'https://icofont.com/icons',
   'https://v1.heroicons.com/',
   'https://heroicons.com/',
   'https://akveo.github.io/eva-icons/',
   'https://ionic.io/ionicons',
   'https://remixicon.com/',
+  'https://evil-icons.io/',
+  'https://www.xicons.org/',
   'https://carbondesignsystem.com/guidelines/icons/library/',
   'https://iconsvg.xyz/',
+  'https://livicons.com/icons-original.php',
 ];
 
 List<String> UrlLinks = [
@@ -135,7 +155,6 @@ List<String> UrlLinks = [
   'https://tilda.cc/free-icons/',
   'https://www.orioniconlibrary.com/all-icons',
   'https://zurb.com/playground/foundation-icon-fonts-3',
-  '',
 ];
 
 
@@ -344,14 +363,14 @@ List<String> UrlLinks = [
                     shrinkWrap: true,
                     gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                         crossAxisCount: 2,
-                        mainAxisSpacing: 50,
-                        crossAxisSpacing: 50,
+                        mainAxisSpacing: 30,
+                        crossAxisSpacing: 30,
                         childAspectRatio: 1.7
                     ),
                     childrenDelegate:SliverChildBuilderDelegate((context, index) {
                       return _searchwebviews(index);
                     },
-                      childCount: 10,
+                      childCount: 14,
                     ),
                   ),
                   ),
@@ -408,7 +427,7 @@ List<String> UrlLinks = [
                   childrenDelegate: SliverChildBuilderDelegate((context, index) {
                       return _searchurls(index);
                     },
-                      childCount: 13,
+                      childCount: 18,
                     ),
                   ),
                   ),
@@ -471,7 +490,7 @@ List<String> UrlLinks = [
                       childrenDelegate: SliverChildBuilderDelegate((context, index) {
                         return _webviews(index);
                       },
-                        childCount: 16,
+                        childCount: 18,
                       ),
                   ),
               ),
